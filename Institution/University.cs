@@ -6,6 +6,7 @@ namespace InternshipTest.Institution
     public class University
     {
         // List<string> listStudent = new List<string>();
+        //не зберігати в масив
         Dictionary<string, int> list = new Dictionary<string, int>();
         string nameUniversity;
 

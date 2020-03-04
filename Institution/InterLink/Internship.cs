@@ -8,6 +8,7 @@ namespace InternshipTest.Institution.InterLink
             this.internshipName = name;      
         }
 
+        //логіка по відбору студентів
         public string GetStudents()
         {
             return "Andrew Maslenko\nJulia Veselkina\n";
