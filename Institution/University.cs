@@ -14,7 +14,10 @@ namespace InternshipTest.Institution
         }
 
         public void AddStudent(Student student) {
-            listStudent.Add(student);
+            int middleRating = 5;
+            if(student.levelKnowledge.level > middleRating) {
+                listStudent.Add(student);
+            } 
         }
     }
 }

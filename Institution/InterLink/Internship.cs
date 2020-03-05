@@ -11,15 +11,9 @@ namespace InternshipTest.Institution.InterLink
         }
 
         public void studentSelection(University university) {
-            int middleRating = 5;
             System.Console.WriteLine($"Список студентів зарахованих в {internshipName}");
             foreach(var student in university.listStudent){
-                if(student.levelKnowledge.level >= middleRating) {
-                    System.Console.WriteLine($"{student.studentName} - {student.levelKnowledge.level} - {university.nameUniversity}");
-                }
-                 // if(student.levelKnowledge >= middleRating) {
-                    // System.Console.WriteLine($"{student.studentName} - {student.levelKnowledge} - {university.nameUniversity}");
-                // }
+                System.Console.WriteLine($"{student.studentName} - {student.levelKnowledge.level} - {university.nameUniversity}");
             }
         }
 
