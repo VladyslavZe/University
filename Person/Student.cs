@@ -26,7 +26,6 @@ namespace InternshipTest.Person
 
         public void SetKnowledge(Knowledge knowledge) {
             this.levelKnowledge = knowledge;
-            // Console.WriteLine(knowledge.getLevel());
         }
     }
 }

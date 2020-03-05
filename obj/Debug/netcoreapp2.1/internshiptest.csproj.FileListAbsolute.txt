@@ -18,3 +18,13 @@
 /home/ubuntu/Документы/University/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfo.cs
 /home/ubuntu/Документы/University/obj/Debug/netcoreapp2.1/internshiptest.dll
 /home/ubuntu/Документы/University/obj/Debug/netcoreapp2.1/internshiptest.pdb
+/home/intern/Videos/University/bin/Debug/netcoreapp2.1/internshiptest.deps.json
+/home/intern/Videos/University/bin/Debug/netcoreapp2.1/internshiptest.runtimeconfig.json
+/home/intern/Videos/University/bin/Debug/netcoreapp2.1/internshiptest.runtimeconfig.dev.json
+/home/intern/Videos/University/bin/Debug/netcoreapp2.1/internshiptest.dll
+/home/intern/Videos/University/bin/Debug/netcoreapp2.1/internshiptest.pdb
+/home/intern/Videos/University/obj/Debug/netcoreapp2.1/internshiptest.csprojAssemblyReference.cache
+/home/intern/Videos/University/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfoInputs.cache
+/home/intern/Videos/University/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfo.cs
+/home/intern/Videos/University/obj/Debug/netcoreapp2.1/internshiptest.dll
+/home/intern/Videos/University/obj/Debug/netcoreapp2.1/internshiptest.pdb

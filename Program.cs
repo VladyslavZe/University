@@ -9,13 +9,12 @@ namespace InternshipTest
     {
         static void Main(string[] args)
         {
-            var s = new Student("Alex");
             University university = new University("CH.U.I.");
-
-            university.AddStudent(new Student("Andrew Kostenko"));
-
-            //Потрібно зразу вирішувати чи проходить 
-            //студент інтернатуру по середньому балу чи ні.
+            university.AddStudent(new Student("Andrew Kostenko1"));
+            university.AddStudent(new Student("Andrew Kostenko2"));
+            university.AddStudent(new Student("Andrew Kostenko3"));
+            university.AddStudent(new Student("Andrew Kostenko4"));
+            university.AddStudent(new Student("Andrew Kostenko5"));
 
 
             Internship internship = new Internship("Interlink");
