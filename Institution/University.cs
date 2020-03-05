@@ -6,14 +6,11 @@ namespace InternshipTest.Institution
     public class University
     {
         public string nameUniversity { get; }
-        public List<Student> listStudent = new List<Student>();
+        public List<Student> listStudent { get; private set; }
 
         public University(string name) {
             this.nameUniversity = name;
-        }
-
-        public List<Student> getListStudent() {
-            return this.listStudent;
+            this.listStudent = new List<Student>();
         }
 
         public void AddStudent(Student student) {

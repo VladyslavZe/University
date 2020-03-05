@@ -6,15 +6,17 @@ namespace InternshipTest.Person
     {
         public string studentName { get; }
         public Knowledge levelKnowledge { get; private set; }
+        // public int levelKnowledge { get; private set; }
 
         public Student(string name) {
             this.studentName = name;
             this.levelKnowledge = new Knowledge(randLevelStudent());
+            // this.levelKnowledge = randLevelStudent();
         }
 
         public int randLevelStudent() {
             Random rnd = new Random();
-            return rnd.Next(2, 10);
+            return rnd.Next(1, 10);
         }
     }
 }
