@@ -8,3 +8,13 @@
 /home/intern/Documents/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfo.cs
 /home/intern/Documents/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.dll
 /home/intern/Documents/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.pdb
+/home/ubuntu/Документы/University/bin/Debug/netcoreapp2.1/internshiptest.deps.json
+/home/ubuntu/Документы/University/bin/Debug/netcoreapp2.1/internshiptest.runtimeconfig.json
+/home/ubuntu/Документы/University/bin/Debug/netcoreapp2.1/internshiptest.runtimeconfig.dev.json
+/home/ubuntu/Документы/University/bin/Debug/netcoreapp2.1/internshiptest.dll
+/home/ubuntu/Документы/University/bin/Debug/netcoreapp2.1/internshiptest.pdb
+/home/ubuntu/Документы/University/obj/Debug/netcoreapp2.1/internshiptest.csprojAssemblyReference.cache
+/home/ubuntu/Документы/University/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfoInputs.cache
+/home/ubuntu/Документы/University/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfo.cs
+/home/ubuntu/Документы/University/obj/Debug/netcoreapp2.1/internshiptest.dll
+/home/ubuntu/Документы/University/obj/Debug/netcoreapp2.1/internshiptest.pdb

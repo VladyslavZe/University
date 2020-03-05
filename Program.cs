@@ -12,16 +12,15 @@ namespace InternshipTest
             var s = new Student("Alex");
             University university = new University("CH.U.I.");
 
-            university.AddStudent(new Student("Andrew Kostenko"), new Knowledge(34));
-            university.AddStudent(new Student("Julia Veselkina"), new Knowledge(52));
-            university.AddStudent(new Student("Maria Perechrest"), new Knowledge(78));
+            university.AddStudent(new Student("Andrew Kostenko"));
 
-            // Internship internship = new Internship("Interlink");
-            // Console.WriteLine("List of internship's students:");
+            //Потрібно зразу вирішувати чи проходить 
+            //студент інтернатуру по середньому балу чи ні.
 
-            // Console.WriteLine(internship.GetStudents());
-            // Console.WriteLine(university.getListStudent());
-            university.outListStudent();
+
+            Internship internship = new Internship("Interlink");
+            internship.GetStudents(university);
+
         }
     }
 }

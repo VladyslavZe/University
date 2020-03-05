@@ -1,24 +1,32 @@
+using System;
 namespace InternshipTest.Person
 {
     public class Student
     {
         string studentName;
-        // Knowledge knowledge;
-        // public Student(string name, Knowledge knowledge)
-        public Student(string name)
-        {
+        Knowledge levelKnowledge;
+
+        public Student(string name) {
             this.studentName = name;
-            // SetKnowledge(knowledge);
+            SetKnowledge(new Knowledge(randLevelStudent()));
+        }
+
+        public int randLevelStudent() {
+            Random rnd = new Random();
+            return rnd.Next(2, 10);
         }
 
         public string getNameStudent() {
             return this.studentName;
         }
 
-        public void SetKnowledge(Knowledge knowledge)
-        {
-            //TODO: Implementation is needed
-            // this.knowledge = knowledge;
+        public int getLevelKnowledge() {
+            return this.levelKnowledge.getLevel();
+        }
+
+        public void SetKnowledge(Knowledge knowledge) {
+            this.levelKnowledge = knowledge;
+            // Console.WriteLine(knowledge.getLevel());
         }
     }
 }
