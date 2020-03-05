@@ -9,16 +9,30 @@ namespace InternshipTest
     {
         static void Main(string[] args)
         {
-            University university = new University("CH.U.I.");
-            university.AddStudent(new Student("Andrew Kostenko1"));
-            university.AddStudent(new Student("Andrew Kostenko2"));
-            university.AddStudent(new Student("Andrew Kostenko3"));
-            university.AddStudent(new Student("Andrew Kostenko4"));
-            university.AddStudent(new Student("Andrew Kostenko5"));
+            University university1 = new University("CH.U.I.");
+            university1.AddStudent(new Student("Andrew Kostenko1"));
+            university1.AddStudent(new Student("Andrew Kostenko2"));
+            university1.AddStudent(new Student("Andrew Kostenko3"));
+            university1.AddStudent(new Student("Andrew Kostenko4"));
+            university1.AddStudent(new Student("Andrew Kostenko5"));
+            University university2 = new University("CH.B.K.");
+            university2.AddStudent(new Student("Andrew Kostenko1"));
+            university2.AddStudent(new Student("Andrew Kostenko2"));
+            university2.AddStudent(new Student("Andrew Kostenko3"));
+            university2.AddStudent(new Student("Andrew Kostenko4"));
+            university2.AddStudent(new Student("Andrew Kostenko5"));
+            University university3 = new University("V.U.I.");
+            university3.AddStudent(new Student("Andrew Kostenko1"));
+            university3.AddStudent(new Student("Andrew Kostenko2"));
+            university3.AddStudent(new Student("Andrew Kostenko3"));
+            university3.AddStudent(new Student("Andrew Kostenko4"));
+            university3.AddStudent(new Student("Andrew Kostenko5"));
 
 
             Internship internship = new Internship("Interlink");
-            internship.GetStudents(university);
+            internship.studentSelection(university1);
+            internship.studentSelection(university2);
+            internship.studentSelection(university3);
 
         }
     }

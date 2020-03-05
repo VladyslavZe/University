@@ -5,16 +5,17 @@ namespace InternshipTest.Institution.InterLink
 {
     public class Internship
     {
-        string internshipName;
+        public string internshipName { get; }
         public Internship(string name) {
             this.internshipName = name;
         }
 
-        public void GetStudents(University university) {
+        public void studentSelection(University university) {
+            int middleRating = 5;
             System.Console.WriteLine($"Список студентов {internshipName}");
             foreach(var student in university.getListStudent()){
-                if(student.getLevelKnowledge() >= 5) {
-                    System.Console.WriteLine($"{student.getNameStudent()} - {student.getLevelKnowledge()}");
+                if(student.levelKnowledge.level >= middleRating) {
+                    System.Console.WriteLine($"{student.studentName} - {student.levelKnowledge.level} - {university.nameUniversity}");
                 }
             }
         }
