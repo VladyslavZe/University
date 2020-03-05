@@ -1,7 +1,6 @@
 using InternshipTest.Person;
 using System.Collections.Generic;
 
-
 namespace InternshipTest.Institution
 {
     public class University

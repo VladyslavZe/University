@@ -28,7 +28,6 @@ namespace InternshipTest
             university3.AddStudent(new Student("Andrew Kostenko4"));
             university3.AddStudent(new Student("Andrew Kostenko5"));
 
-
             Internship internship = new Internship("Interlink");
             internship.studentSelection(university1);
             internship.studentSelection(university2);
