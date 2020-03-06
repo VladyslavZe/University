@@ -7,20 +7,20 @@ namespace InternshipTest.Institution.InterLink
   public class Internship
   {
     public string internshipName { get; }
-    public List<Student> listStudent { get; private set; }
+    public List<Student> listStudents { get; private set; }
     public Internship(string name)
     {
       this.internshipName = name;
-      this.listStudent = new List<Student>();
+      this.listStudents = new List<Student>();
     }
 
     public void studentSelection(University university)
     {
-      foreach (var student in university.listStudent)
+      foreach (var student in university.listStudents)
       {
         if (student.levelKnowledge.level > university.averageScore)
         {
-          listStudent.Add(student);
+          listStudents.Add(student);
         }
       }
     }

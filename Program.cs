@@ -20,7 +20,7 @@ namespace InternshipTest
       internship.studentSelection(university3);
       Console.WriteLine($"Средний бал: {university3.averageScore}");
       System.Console.WriteLine($"Список студентів зарахованих в {internship.internshipName}");
-      foreach (var student in internship.listStudent)
+      foreach (Student student in internship.listStudents)
       {
         Console.WriteLine($"{student.studentName} - {student.levelKnowledge.level}");
       }

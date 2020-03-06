@@ -6,12 +6,12 @@ namespace InternshipTest.Institution
   public class University
   {
     public string nameUniversity { get; }
-    public List<Student> listStudent { get; private set; }
+    public List<Student> listStudents { get; private set; }
 
     public University(string name)
     {
       this.nameUniversity = name;
-      this.listStudent = new List<Student>();
+      this.listStudents = new List<Student>();
     }
 
     public int averageScore
@@ -19,18 +19,18 @@ namespace InternshipTest.Institution
       get
       {
         int score = 0;
-        foreach (var student in listStudent)
+        foreach (Student student in listStudents)
         {
           score += student.levelKnowledge.level;
         }
-        return score / listStudent.Count;
+        return score / listStudents.Count;
       }
 
     }
 
     public void enrolStudent(Student student)
     {
-      listStudent.Add(student);
+      listStudents.Add(student);
     }
   }
 }
