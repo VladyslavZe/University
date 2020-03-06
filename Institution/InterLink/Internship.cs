@@ -1,21 +1,29 @@
 using InternshipTest.Institution;
 using InternshipTest.Person;
+using System.Collections.Generic;
 
 namespace InternshipTest.Institution.InterLink
 {
-    public class Internship
+  public class Internship
+  {
+    public string internshipName { get; }
+    public List<Student> listStudent { get; private set; }
+    public Internship(string name)
     {
-        public string internshipName { get; }
-        public Internship(string name) {
-            this.internshipName = name;
-        }
-
-        public void studentSelection(University university) {
-            System.Console.WriteLine($"Список студентів зарахованих в {internshipName}");
-            foreach(var student in university.listStudent){
-                System.Console.WriteLine($"{student.studentName} - {student.levelKnowledge.level} - {university.nameUniversity}");
-            }
-        }
-
+      this.internshipName = name;
+      this.listStudent = new List<Student>();
     }
+
+    public void studentSelection(University university)
+    {
+      System.Console.WriteLine($"Список студентів зарахованих в {internshipName}");
+      foreach (var student in university.listStudent)
+      {
+        if (student.levelKnowledge.level > university.averageScore)
+        {
+          listStudent.Add(student);
+        }
+      }
+    }
+  }
 }
