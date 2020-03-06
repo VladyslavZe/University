@@ -19,6 +19,7 @@ namespace InternshipTest
       Internship internship = new Internship("Interlink");
       internship.studentSelection(university3);
       Console.WriteLine($"Средний бал: {university3.averageScore}");
+      System.Console.WriteLine($"Список студентів зарахованих в {internship.internshipName}");
       foreach (var student in internship.listStudent)
       {
         Console.WriteLine($"{student.studentName} - {student.levelKnowledge.level}");

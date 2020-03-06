@@ -16,7 +16,6 @@ namespace InternshipTest.Institution.InterLink
 
     public void studentSelection(University university)
     {
-      System.Console.WriteLine($"Список студентів зарахованих в {internshipName}");
       foreach (var student in university.listStudent)
       {
         if (student.levelKnowledge.level > university.averageScore)
